@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html{
+    color: #3F5D45;
+}
+
+a{
+    color: #3F5D45;
+    text-decoration: none;
+}
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu a{
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.menu a:hover{
+    background: #3F5D45;
+    color: #fff;
+}
+
+.banner{
+    margin-bottom: 60px;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.aside{
+  width: 300px;
+}
+
+.aside h2{
+  background: #3F5D45;
+  color: #fff;
+  line-height: 65px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.aside li{
+  margin-bottom: -1px;
+}
+
+.aside li a{
+  line-height: 65px;
+  font-size: 24px;
+  text-align: center;
+  display: block;
+  border: 1px solid #EAF0ED;
+}
+
+.aside li a:hover{
+  background: #EAF0ED;
+}
+
+.productlist{
+  width: 620px;
+}
+
+.productlist-card{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.productlist-card li{
+  width: 300px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.productlist-card .tag{
+  position: absolute;
+  background: #3F5D45;
+  color: #fff;
+  padding: 10px;
+  left: 20px;
+  top: 0;
+  letter-spacing: 5px;
+  writing-mode: vertical-lr;
+}
+
+.productlist-card .like{
+  position: absolute;
+  top: 19px;
+  right: 22px;
+}
+
+.productlist-card .productlist-card-body{
+  border-bottom: 1px solid #EAF0ED;
+  border-left: 1px solid #EAF0ED;
+  border-right: 1px solid #EAF0ED;
+  line-height: 65px;
+  font-size: 20px;
+  display: flex;
+}
+
+.productlist-card .productlist-card-body h2{
+  width: 173px;
+  text-align: center;
+  border-right: 1px solid #EAF0ED
+}
+
+.productlist-card .productlist-card-body span{
+  width: 127px;
+  text-align: center;
+}
+
+.productlist-card-cart{
+  background: #EAF0ED;
+  line-height: 65px;
+  text-align: center;
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pagination{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pagination-list{
+  display: flex;
+}
+
+.pagination-list a{
+  display: flex;
+  font-size: 20px;
+  height: 60px;
+  width: 60px;
+  border: 1px solid #EAF0ED;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pagination-list a:hover{
+  background: #3F5D45;
+  color: #fff;
+}
